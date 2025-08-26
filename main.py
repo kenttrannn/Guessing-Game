@@ -1,4 +1,4 @@
-#Kent Tran, Viktor Silaiev
+#Kent Tran, Viktor Silaie
 #August 26, 2025
 #Lab #1, Randomized Number Guessing Game
 import check_input
@@ -8,7 +8,7 @@ def main():
     randomizedNumber = random.randint(1, 100) #creates a random number and stores it under randomizedNumber
     guessCount = 0
     guess = 0
-    print(randomizedNumber)
+    #print(randomizedNumber) #for testing purposes
     
     while (guess != randomizedNumber):#checking if the guess is right
         guess = check_input.get_int_range("I'm thinking of a number. Make a guess (1-100): ", 1, 100)
